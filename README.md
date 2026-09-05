@@ -1,4 +1,4 @@
-# Selsela Suboori Store
+# Selsela Store
 
 Angular 21 ecommerce project with 14 products, 6 categories, category filtering, search, stock status, prices, cart counter and responsive boutique styling.
 
@@ -8,4 +8,4 @@ Angular 21 ecommerce project with 14 products, 6 categories, category filtering,
 
 ## Vercel
 Build: `npm run build`
-Output: `dist/selsela-suboori-angular-ecommerce/browser`
+Output: dist/selsela-suboori-angular-ecommerce/browser``
