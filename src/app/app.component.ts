@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 interface Product{id:string;name:string;description:string;price:number;imageUrl:string;inStock:boolean;category:string;}
 @Component({selector:'app-root',standalone:true,imports:[CommonModule,FormsModule],templateUrl:'./app.component.html',styleUrl:'./app.component.css'})
 export class AppComponent{
- storeName='Selsela Suboori Store'; searchTerm=''; selectedCategory='All'; cartCount=0;
+ storeName='Farid Rahimi Store'; searchTerm=''; selectedCategory='All'; cartCount=0;
  products:Product[]=[
     {id:'P001',name:'Rose Quartz Face Roller',description:'Cooling facial roller for a calm skincare routine.',price:24.5,imageUrl:'https://picsum.photos/seed/P001/700/500',inStock:true,category:'Beauty'},
     {id:'P002',name:'Velvet Lip Tint',description:'Soft everyday lip tint with a lightweight finish.',price:18,imageUrl:'https://picsum.photos/seed/P002/700/500',inStock:true,category:'Beauty'},
